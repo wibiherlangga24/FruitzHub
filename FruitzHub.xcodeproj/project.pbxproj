@@ -9,21 +9,57 @@
 /* Begin PBXBuildFile section */
 		CE9328C62AF66425006C71A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9328C52AF66425006C71A4 /* AppDelegate.swift */; };
 		CE9328C82AF66425006C71A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9328C72AF66425006C71A4 /* SceneDelegate.swift */; };
-		CE9328CA2AF66425006C71A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9328C92AF66425006C71A4 /* ViewController.swift */; };
-		CE9328CD2AF66425006C71A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9328CB2AF66425006C71A4 /* Main.storyboard */; };
 		CE9328CF2AF66426006C71A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9328CE2AF66426006C71A4 /* Assets.xcassets */; };
 		CE9328D22AF66426006C71A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9328D02AF66426006C71A4 /* LaunchScreen.storyboard */; };
+		CE9328E12AF66700006C71A4 /* WelcomeScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9328DF2AF66700006C71A4 /* WelcomeScreenVC.swift */; };
+		CE9328E22AF66700006C71A4 /* WelcomeScreenVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE9328E02AF66700006C71A4 /* WelcomeScreenVC.xib */; };
+		CE9328E52AF66D2A006C71A4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9328E42AF66D2A006C71A4 /* Constants.swift */; };
+		CE9328E82AF673A8006C71A4 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9328E72AF673A8006C71A4 /* Label.swift */; };
+		CE9328EE2AF678A6006C71A4 /* BrandonGrotesque_bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE9328EB2AF678A6006C71A4 /* BrandonGrotesque_bold.otf */; };
+		CE9328EF2AF678A6006C71A4 /* BrandonGrotesque_regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE9328EC2AF678A6006C71A4 /* BrandonGrotesque_regular.otf */; };
+		CE9328F02AF678A6006C71A4 /* BrandonGrotesque_medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = CE9328ED2AF678A6006C71A4 /* BrandonGrotesque_medium.otf */; };
+		CE9328F22AF679D0006C71A4 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9328F12AF679D0006C71A4 /* Font.swift */; };
+		CE9328F42AF6803B006C71A4 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9328F32AF6803B006C71A4 /* Button.swift */; };
+		CE9328F82AF681A6006C71A4 /* AuthenticationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9328F62AF681A6006C71A4 /* AuthenticationVC.swift */; };
+		CE9328F92AF681A6006C71A4 /* AuthenticationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE9328F72AF681A6006C71A4 /* AuthenticationVC.xib */; };
+		CE9328FD2AF6966E006C71A4 /* HomeScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9328FB2AF6966E006C71A4 /* HomeScreenVC.swift */; };
+		CE9328FE2AF6966E006C71A4 /* HomeScreenVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE9328FC2AF6966E006C71A4 /* HomeScreenVC.xib */; };
+		CE9329022AF69B9F006C71A4 /* MealItemCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9329002AF69B9F006C71A4 /* MealItemCardCell.swift */; };
+		CE9329032AF69B9F006C71A4 /* MealItemCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE9329012AF69B9F006C71A4 /* MealItemCardCell.xib */; };
+		CE9329062AF6C02E006C71A4 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9329052AF6C02E006C71A4 /* Product.swift */; };
+		CE9329092AF6C0D5006C71A4 /* HomeScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9329082AF6C0D5006C71A4 /* HomeScreenViewModel.swift */; };
+		CE93290C2AF6CE23006C71A4 /* ProductSectionTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE93290A2AF6CE23006C71A4 /* ProductSectionTVC.swift */; };
+		CE93290D2AF6CE23006C71A4 /* ProductSectionTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE93290B2AF6CE23006C71A4 /* ProductSectionTVC.xib */; };
+		CE93290F2AF6DA5A006C71A4 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE93290E2AF6DA5A006C71A4 /* View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CE9328C22AF66425006C71A4 /* FruitzHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FruitzHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9328C52AF66425006C71A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE9328C72AF66425006C71A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE9328C92AF66425006C71A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CE9328CC2AF66425006C71A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE9328CE2AF66426006C71A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE9328D12AF66426006C71A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE9328D32AF66426006C71A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE9328DF2AF66700006C71A4 /* WelcomeScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenVC.swift; sourceTree = "<group>"; };
+		CE9328E02AF66700006C71A4 /* WelcomeScreenVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelcomeScreenVC.xib; sourceTree = "<group>"; };
+		CE9328E42AF66D2A006C71A4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CE9328E72AF673A8006C71A4 /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		CE9328EB2AF678A6006C71A4 /* BrandonGrotesque_bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BrandonGrotesque_bold.otf; sourceTree = "<group>"; };
+		CE9328EC2AF678A6006C71A4 /* BrandonGrotesque_regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BrandonGrotesque_regular.otf; sourceTree = "<group>"; };
+		CE9328ED2AF678A6006C71A4 /* BrandonGrotesque_medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BrandonGrotesque_medium.otf; sourceTree = "<group>"; };
+		CE9328F12AF679D0006C71A4 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		CE9328F32AF6803B006C71A4 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		CE9328F62AF681A6006C71A4 /* AuthenticationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationVC.swift; sourceTree = "<group>"; };
+		CE9328F72AF681A6006C71A4 /* AuthenticationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuthenticationVC.xib; sourceTree = "<group>"; };
+		CE9328FB2AF6966E006C71A4 /* HomeScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenVC.swift; sourceTree = "<group>"; };
+		CE9328FC2AF6966E006C71A4 /* HomeScreenVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeScreenVC.xib; sourceTree = "<group>"; };
+		CE9329002AF69B9F006C71A4 /* MealItemCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealItemCardCell.swift; sourceTree = "<group>"; };
+		CE9329012AF69B9F006C71A4 /* MealItemCardCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MealItemCardCell.xib; sourceTree = "<group>"; };
+		CE9329052AF6C02E006C71A4 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		CE9329082AF6C0D5006C71A4 /* HomeScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewModel.swift; sourceTree = "<group>"; };
+		CE93290A2AF6CE23006C71A4 /* ProductSectionTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductSectionTVC.swift; sourceTree = "<group>"; };
+		CE93290B2AF6CE23006C71A4 /* ProductSectionTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductSectionTVC.xib; sourceTree = "<group>"; };
+		CE93290E2AF6DA5A006C71A4 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +92,121 @@
 		CE9328C42AF66425006C71A4 /* FruitzHub */ = {
 			isa = PBXGroup;
 			children = (
+				CE9328E62AF67373006C71A4 /* Extension */,
+				CE9328E32AF66D03006C71A4 /* Utils */,
+				CE9328DD2AF666C2006C71A4 /* Pages */,
 				CE9328C52AF66425006C71A4 /* AppDelegate.swift */,
 				CE9328C72AF66425006C71A4 /* SceneDelegate.swift */,
-				CE9328C92AF66425006C71A4 /* ViewController.swift */,
-				CE9328CB2AF66425006C71A4 /* Main.storyboard */,
 				CE9328CE2AF66426006C71A4 /* Assets.xcassets */,
 				CE9328D02AF66426006C71A4 /* LaunchScreen.storyboard */,
 				CE9328D32AF66426006C71A4 /* Info.plist */,
 			);
 			path = FruitzHub;
+			sourceTree = "<group>";
+		};
+		CE9328DD2AF666C2006C71A4 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				CE9328FA2AF69528006C71A4 /* Home Screen */,
+				CE9328F52AF68160006C71A4 /* Authentication */,
+				CE9328DE2AF666E2006C71A4 /* Welcome Screen */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		CE9328DE2AF666E2006C71A4 /* Welcome Screen */ = {
+			isa = PBXGroup;
+			children = (
+				CE9328DF2AF66700006C71A4 /* WelcomeScreenVC.swift */,
+				CE9328E02AF66700006C71A4 /* WelcomeScreenVC.xib */,
+			);
+			path = "Welcome Screen";
+			sourceTree = "<group>";
+		};
+		CE9328E32AF66D03006C71A4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CE9328EA2AF6773F006C71A4 /* Font */,
+				CE9328E92AF67732006C71A4 /* Constant */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CE9328E62AF67373006C71A4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CE9328E72AF673A8006C71A4 /* Label.swift */,
+				CE9328F12AF679D0006C71A4 /* Font.swift */,
+				CE9328F32AF6803B006C71A4 /* Button.swift */,
+				CE93290E2AF6DA5A006C71A4 /* View.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CE9328E92AF67732006C71A4 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				CE9328E42AF66D2A006C71A4 /* Constants.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		CE9328EA2AF6773F006C71A4 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				CE9328EB2AF678A6006C71A4 /* BrandonGrotesque_bold.otf */,
+				CE9328ED2AF678A6006C71A4 /* BrandonGrotesque_medium.otf */,
+				CE9328EC2AF678A6006C71A4 /* BrandonGrotesque_regular.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		CE9328F52AF68160006C71A4 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				CE9328F62AF681A6006C71A4 /* AuthenticationVC.swift */,
+				CE9328F72AF681A6006C71A4 /* AuthenticationVC.xib */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		CE9328FA2AF69528006C71A4 /* Home Screen */ = {
+			isa = PBXGroup;
+			children = (
+				CE9329072AF6C0B6006C71A4 /* ViewModel */,
+				CE9329042AF6C010006C71A4 /* Model */,
+				CE9328FF2AF69B45006C71A4 /* Cell */,
+				CE9328FB2AF6966E006C71A4 /* HomeScreenVC.swift */,
+				CE9328FC2AF6966E006C71A4 /* HomeScreenVC.xib */,
+			);
+			path = "Home Screen";
+			sourceTree = "<group>";
+		};
+		CE9328FF2AF69B45006C71A4 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CE9329002AF69B9F006C71A4 /* MealItemCardCell.swift */,
+				CE9329012AF69B9F006C71A4 /* MealItemCardCell.xib */,
+				CE93290A2AF6CE23006C71A4 /* ProductSectionTVC.swift */,
+				CE93290B2AF6CE23006C71A4 /* ProductSectionTVC.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CE9329042AF6C010006C71A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE9329052AF6C02E006C71A4 /* Product.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE9329072AF6C0B6006C71A4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CE9329082AF6C0D5006C71A4 /* HomeScreenViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +269,14 @@
 			files = (
 				CE9328D22AF66426006C71A4 /* LaunchScreen.storyboard in Resources */,
 				CE9328CF2AF66426006C71A4 /* Assets.xcassets in Resources */,
-				CE9328CD2AF66425006C71A4 /* Main.storyboard in Resources */,
+				CE9328EF2AF678A6006C71A4 /* BrandonGrotesque_regular.otf in Resources */,
+				CE9328FE2AF6966E006C71A4 /* HomeScreenVC.xib in Resources */,
+				CE9328F02AF678A6006C71A4 /* BrandonGrotesque_medium.otf in Resources */,
+				CE9328E22AF66700006C71A4 /* WelcomeScreenVC.xib in Resources */,
+				CE9328F92AF681A6006C71A4 /* AuthenticationVC.xib in Resources */,
+				CE9329032AF69B9F006C71A4 /* MealItemCardCell.xib in Resources */,
+				CE9328EE2AF678A6006C71A4 /* BrandonGrotesque_bold.otf in Resources */,
+				CE93290D2AF6CE23006C71A4 /* ProductSectionTVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +287,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE9328CA2AF66425006C71A4 /* ViewController.swift in Sources */,
+				CE9328F42AF6803B006C71A4 /* Button.swift in Sources */,
+				CE9329092AF6C0D5006C71A4 /* HomeScreenViewModel.swift in Sources */,
 				CE9328C62AF66425006C71A4 /* AppDelegate.swift in Sources */,
+				CE9328F82AF681A6006C71A4 /* AuthenticationVC.swift in Sources */,
 				CE9328C82AF66425006C71A4 /* SceneDelegate.swift in Sources */,
+				CE9328F22AF679D0006C71A4 /* Font.swift in Sources */,
+				CE93290C2AF6CE23006C71A4 /* ProductSectionTVC.swift in Sources */,
+				CE9329062AF6C02E006C71A4 /* Product.swift in Sources */,
+				CE9328E12AF66700006C71A4 /* WelcomeScreenVC.swift in Sources */,
+				CE9328E82AF673A8006C71A4 /* Label.swift in Sources */,
+				CE9328E52AF66D2A006C71A4 /* Constants.swift in Sources */,
+				CE9328FD2AF6966E006C71A4 /* HomeScreenVC.swift in Sources */,
+				CE93290F2AF6DA5A006C71A4 /* View.swift in Sources */,
+				CE9329022AF69B9F006C71A4 /* MealItemCardCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CE9328CB2AF66425006C71A4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE9328CC2AF66425006C71A4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CE9328D02AF66426006C71A4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,9 +444,7 @@
 				INFOPLIST_FILE = FruitzHub/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,9 +470,7 @@
 				INFOPLIST_FILE = FruitzHub/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
